@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://github.com/boris1690/gk_gecko_test_ancient/assets/5614247/866fe396-59b3-4068-bd21-271c802421e8
+https://github.com/boris1690/frontend_test_imagineapps/assets/5614247/63aa747f-428f-46d3-9917-d1defd191efc
 
 
 ## Requirements
