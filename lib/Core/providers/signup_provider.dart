@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:frontend_test_imagineapps/Core/Constants/api.dart';
+import 'package:frontend_test_imagineapps/UI/Screens/Authentication/login_screen.dart';
 import 'package:get/get.dart';
 import 'package:ndialog/ndialog.dart';
 import 'package:http/http.dart' as http;
@@ -38,7 +39,7 @@ class SignUpProvider extends ChangeNotifier {
 
       CustomSnackBar.showSuccess('SignUp Successfully');
       dialog.dismiss();
-      //Get.offAll(() => const TasksScreen());
+      Get.offAll(() => const LoginScreen());
     } catch (e) {
       CustomSnackBar.showError('SignUp Failed!');
       dialog.dismiss();
@@ -47,22 +48,5 @@ class SignUpProvider extends ChangeNotifier {
       }
       rethrow;
     }
-  }
-
-  Future<void> storeUserData(
-      {required String userId,
-      required String name,
-      required String email}) async {
-    /*   try {
-      await _firestore.collection('users').doc(userId).set({
-        'email': email,
-        'uid': userId,
-        'name': name,
-      });
-    } catch (e) {
-      CustomSnackBar.showError('Error storing user data: $e');
-
-      rethrow;
-    } */
   }
 }

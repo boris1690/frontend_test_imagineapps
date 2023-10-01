@@ -36,10 +36,8 @@ class _MyIntroductionScreenState extends State<MyIntroductionScreen> {
           PageViewModel(
             title: title,
             body: ' Create multiple to-do lists, add '
-                'tasks with due dates and priorities, and track your progress effortlessly.'
-                'Collaborate with others by sharing lists and assigning tasks. With real-time '
-                'synchronization powered by Firebase, access your tasks anytime, anywhere, '
-                'and on any device.',
+                'tasks and track your progress effortlessly.'
+                'Collaborate with others by sharing lists and assigning tasks. ',
             image: Image.asset(
               'assets/2.png',
               fit: BoxFit.cover,
