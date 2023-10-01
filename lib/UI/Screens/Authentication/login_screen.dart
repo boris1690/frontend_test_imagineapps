@@ -84,18 +84,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                     ),
                   ),
-                  Align(
-                    alignment: Alignment.centerRight,
-                    child: TextButton(
-                      onPressed: () {
-                        Get.to(() => const ForgotPasswordScreen());
-                      },
-                      child: const Text(
-                        'Recovery Password',
-                        style: TextStyle(color: kBlack),
-                      ),
-                    ),
-                  ),
 
                   const SizedBox(height: 20.0),
                   MyButtonLong(
@@ -131,13 +119,14 @@ class _LoginScreenState extends State<LoginScreen> {
                             fontSize: 15.0, color: kBlack.withOpacity(0.4)),
                       ),
                       TextButton(
-                          onPressed: () {
-                            Get.to(() => const SignUpScreen());
-                          },
-                          child: const Text(
-                            'Register Now',
-                            style: TextStyle(color: kBlack),
-                          ))
+                        onPressed: () {
+                          Get.to(() => const SignUpScreen());
+                        },
+                        child: const Text(
+                          'Register Now',
+                          style: TextStyle(color: kBlack),
+                        ),
+                      )
                     ],
                   ),
                   const SizedBox(height: 15.0),
