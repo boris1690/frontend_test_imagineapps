@@ -19,6 +19,8 @@ Flutter: 3.13.3
 - Copy Base Url from backend in path lib/Core/Constants/api.dart ==> replace in var apiUrl
 <img width="863" alt="image" src="https://github.com/boris1690/frontend_test_imagineapps/assets/5614247/7b5aae96-af56-466d-a206-3f11dd489664">
 
+==========================================================================================================================================================================
+
 <img width="862" alt="image" src="https://github.com/boris1690/frontend_test_imagineapps/assets/5614247/dfb90eaf-3654-4778-907b-8c8170906492">
 
 ## Additional steps for iOS
