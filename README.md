@@ -6,7 +6,7 @@ https://github.com/boris1690/frontend_test_imagineapps/assets/5614247/63aa747f-4
 
 
 ## Requirements
-Flutter: 3.13.
+Flutter: 3.13.3
 
 ## Installation
 - Add [Flutter](https://flutter.dev/docs/get-started/install 'Flutter') to your machine
