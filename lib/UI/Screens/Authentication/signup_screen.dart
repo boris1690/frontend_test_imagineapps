@@ -123,7 +123,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             passController.text.isEmpty) {
                           return CustomSnackBar.showError(
                               'Please fill all the fields');
-                        } else if (nameController.text !=
+                        } else if (passController.text !=
                             conPassController.text) {
                           return CustomSnackBar.showError(
                               'Password and Confirm Password must be same.');

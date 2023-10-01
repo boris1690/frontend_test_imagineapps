@@ -117,9 +117,10 @@ class TaskProvider extends ChangeNotifier {
 
     final Map<String, dynamic> body = jsonDecode(response.body);
 
-    _taskStream = ((body['data'] as List<dynamic>)
-        .map((e) => Task.fromJson(Map<String, dynamic>.from(e)))
-        .toList());
+    if (body['data'] != null)
+      _taskStream = ((body['data'] as List<dynamic>)
+          .map((e) => Task.fromJson(Map<String, dynamic>.from(e)))
+          .toList());
 
     notifyListeners();
   }
